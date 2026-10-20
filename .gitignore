@@ -1,0 +1,8 @@
+# Personal WaniKani data and secrets
+wanikani_cache/
+wanikaniFolder/
+.env
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
