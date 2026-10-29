@@ -41,7 +41,12 @@ On the held-out test set (351 cards) Logistic Regression reaches accuracy 0.66.
 It finds 61% of the hard cards (recall), and 67% of the cards it flags are actually
 hard (precision). CV and test scores are close, so the model is not overfitting.
 
+![Confusion matrix and ROC curve of logistic regression on the test set](images/test_results.png)
+
 Key findings:
+
+![Logistic regression weights: positive values make a card harder](images/lr_weights.png)
+
 - Vocabulary is the easiest card type for me; kanji and radicals are harder.
   Words probably benefit from context.
 - Cards built from more components, and cards from higher WaniKani levels,
